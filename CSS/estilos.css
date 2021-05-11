@@ -1,0 +1,52 @@
+
+/*Primero modificamos los elementos básicos de la página web*/
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#2e6f95, #a01a58);
+}
+
+/*Luego modificamos los elementos de la página html*/
+
+.contenedor{    /*Se ajusta el espacio donde el usuario va a ingresar su información*/
+    margin: 50px auto;
+    padding: 30px;
+    width: 400px;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 10px;
+}
+.contenedor h1{     /*Se ajusta el texto "Iniciar Sesión"*/
+    margin: 0, 0, 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor .elemento label{    /*Se modifica los labels como "Usuario" y "Password"*/
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor .elemento input{    /*Se modifica el campo de datos a ingresar*/
+    width: 100%;
+    padding: 10px 0;
+    color: #f5f5f5;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+}
+.contenedor .elemento input[type="submit"]{ /*Se modifica el boton de "Enviar"*/
+    background-color: #a01a58;
+    border: none;
+    padding: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
